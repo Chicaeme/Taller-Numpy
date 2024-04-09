@@ -1,6 +1,4 @@
 import numpy as np 
 
-miArreglo= np.arange(0,9)
+miArreglo= np.linspace(0,100,10)
 print(miArreglo)
-miArreglo1=miArreglo.reshape((2,10))
-print(miArreglo1.ndim)

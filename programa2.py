@@ -75,3 +75,8 @@ miArreglo= np.arange(10)
 print(miArreglo)
 #con reshape modifica la dimension
 miArreglo.reshape((2,10))
+
+#6) linspace funcion que es para decirle al programa con cuantos decimales quiero trabajar numpy.linspace=(start, stop, cantidad de numeros)
+
+miArreglo= np.linspace(0,100,1000)
+print(miArreglo)
