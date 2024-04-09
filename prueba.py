@@ -1,4 +1,7 @@
 import numpy as np 
 
-miArreglo= np.linspace(0,100,10)
+miArreglo= np.arange(10)
+
+print(miArreglo)
+miArreglo=miArreglo.reshape((1,10))
 print(miArreglo)
