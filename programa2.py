@@ -80,3 +80,80 @@ miArreglo.reshape((2,10))
 
 miArreglo= np.linspace(0,100,1000)
 print(miArreglo)
+
+#Funciones de operaciones
+
+#elevado al cuadrado
+
+a=np.array([5,10,15,20,25])
+print(a)
+b=np.array([3,4,7,9,56])
+print(b)
+
+#clase ndarray 
+
+#a.sum
+a=np.array([5,10,15,20,25])
+c = a.sum()
+print(c)
+
+#a.min  valor minimo
+
+#a.sort 
+
+#a.mean saca la media
+
+#DOS DIMENSIONES
+
+a=np.array([[5,10,-1,20,25],[3,6,4,8,12]])
+print(a)
+print(a.sum()) #suma todo
+
+#suma la fila
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(a.sum(axis=1))
+
+#suma la columna
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(a.sum(axis=0))
+
+
+#minimo de toda la matriz
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(a.min())
+
+#cantidad de ejes * dimensiones
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(a.size)
+
+#raiz cuadrada de toda la funcion
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(np.sqrt(a))
+
+#exponencial
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+print(a)
+print(np.exp(a))
+
+
+#METODO ADD suma los elementos es lo mismo que A+B 
+a=np.array([[5,10,-1,20,25], [3,6,4,8,12]])
+b=np.array([[1,2,3,4,5], [6,7,8,9,10]])
+print(a)
+print(b)
+c= np.add(a,b)
+print(c)
+
+#n.round lo acerca al numero
+import numpy as np 
+
+a=np.array([7.3,9.9,3.9])
+
+print(a.round())
+
+#np.gradiente
